@@ -24,5 +24,11 @@ public class Book {
         return destription;
     }
 
+    public String getIsbn() {
+        return isbn;
+    }
 
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
 }
