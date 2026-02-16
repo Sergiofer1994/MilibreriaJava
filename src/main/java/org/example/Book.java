@@ -12,10 +12,6 @@ public class Book {
         this.title = title;
     }
 
-    public double getPrice() {
-        return price;
-    }
-
     public void setDestription(String destription) {
         this.destription = destription;
     }
@@ -31,4 +27,17 @@ public class Book {
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
+
+    public String getWriter() {
+        return writer;
+    }
+
+    public void setWriter(String writer) {
+        this.writer = writer;
+    }
+
+    public Double getPrice(){
+        return price;
+    }
+
 }
