@@ -1,14 +1,28 @@
 package org.example;
 
 public class Book {
-    private  String titñe, destription, isbn, writer;
+    private  String title, destription, isbn, writer;
     private double price;
 
-    public String getTitñe() {
-        return titñe;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitñe(String titñe) {
-        this.titñe = titñe;
+    public void setTitle(String title) {
+        this.title = title;
     }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setDestription(String destription) {
+        this.destription = destription;
+    }
+
+    public String getDestription() {
+        return destription;
+    }
+
+
 }
