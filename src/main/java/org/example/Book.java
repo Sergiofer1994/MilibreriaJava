@@ -1,8 +1,12 @@
 package org.example;
 
 public class Book {
-    private  String title, destription, isbn, writer;
+    private  String title;
+    private  String destription;
+    private  String isbn;
+    private  String writer;
     private double price;
+
 
     public String getTitle() {
         return title;
