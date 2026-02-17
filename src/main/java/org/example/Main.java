@@ -55,9 +55,12 @@ public class Main {
 
         book3.setTitle("changed");
         book3.setIsbn("changed");
-        book3.setPrice(0,1);
-        book3.setTitle("changed");
-        book3.setTitle("changed");
+        book3.setPrice(0.1);
+        book3.setWriter("changed");
+        book3.setDestription("changed");
+
+        System.out.println(book3.getTitle()+book3.getPrice()+", "+book3.getWriter()+", "+book3.getDestription()+", "
+                +book3.getIsbn());
 
     }
 }
