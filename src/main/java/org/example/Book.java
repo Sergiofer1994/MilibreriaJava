@@ -7,6 +7,13 @@ public class Book {
     private  String writer;
     private double price;
 
+    public Book(String title, double price, String writer, String destription, String isbn) {
+        this.title = title;
+        this.price = price;
+        this.writer = writer;
+        this.destription = destription;
+        this.isbn = isbn;
+    }
 
     public String getTitle() {
         return title;
@@ -44,4 +51,7 @@ public class Book {
         return price;
     }
 
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
